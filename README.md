@@ -1,5 +1,11 @@
 # prettier-plugin-fixpack
 
+[![npm](https://badgen.net/npm/v/prettier-plugin-fixpack)][npm-url]
+[![npm: total downloads](https://badgen.net/npm/dt/prettier-plugin-fixpack)][npm-url]
+[![Actions Status: test](https://github.com/uetchy/prettier-plugin-fixpack/workflows/test/badge.svg)](https://github.com/uetchy/prettier-plugin-fixpack/actions?query=test)
+
+[npm-url]: https://npmjs.org/package/prettier-plugin-fixpack
+
 A (semi-)opinionated Prettier plugin that sort properties in `package.json` according to [`.fixpackrc`](https://github.com/HenrikJoreteg/fixpack).
 
 ## Use
