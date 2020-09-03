@@ -25,7 +25,7 @@ prettier [--write] package.json
 ### Configuration
 
 `.fixpackrc` is a JSON file consisting of the rules that define how `fixpack` organize your `package.json`.
-If `.fixpackrc` is missing in both local (./.fixpackrc) and global (~/.fixpackrc), [default config](./lib/defaultConfig.js) will be used to format the file.
+If `.fixpackrc` is missing in both local (./.fixpackrc) and global (~/.fixpackrc), [default config](./lib/defaultConfig.json) will be used to format the file.
 
 ## Contributing
 
