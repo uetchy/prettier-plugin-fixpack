@@ -1,6 +1,6 @@
 # prettier-plugin-fixpack
 
-A (semi-)opinionated Prettier plugin that sort properties in `package.json` according to `.fixpackrc`.
+A (semi-)opinionated Prettier plugin that sort properties in `package.json` according to [`.fixpackrc`](https://github.com/HenrikJoreteg/fixpack).
 
 ## Use
 
