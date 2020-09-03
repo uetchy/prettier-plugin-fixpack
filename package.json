@@ -1,7 +1,7 @@
 {
   "name": "prettier-plugin-fixpack",
   "description": "Prettier plugin to sort out package.json (configurable)",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Yasuaki Uechi <y@uechi.io>",
   "scripts": {
     "test": "jest"
