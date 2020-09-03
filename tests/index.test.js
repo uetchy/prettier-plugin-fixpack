@@ -49,10 +49,12 @@ const fixture = `
 `;
 
 it("sort", () => {
-  expect(
-    prettier.format(fixture, {
-      filepath: "package.json",
-      plugins: ["."],
-    })
-  ).toMatchSnapshot();
+  ["package.json", "path/to/package.json"].forEach((filepath) => {
+    expect(
+      prettier.format(fixture, {
+        filepath,
+        plugins: ["."],
+      })
+    ).toMatchSnapshot();
+  });
 });
